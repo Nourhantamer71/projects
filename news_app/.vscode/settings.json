@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "D:/flutter/fluttter_course1/news_app/windows/runner",
+    "java.project.sourcePaths": [
+        "lib/widgets"
+    ]
+}
