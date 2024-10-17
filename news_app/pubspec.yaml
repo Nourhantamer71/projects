@@ -30,7 +30,7 @@ dependencies:
   dio: ^5.7.0
   flutter:
     sdk: flutter
-  webview_flutter: ^4.10.0
+  webview_flutter: ^4.8.0
 
 dev_dependencies:
 

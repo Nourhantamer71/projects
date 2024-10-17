@@ -4,8 +4,15 @@ class ArticleModel {
   final String descraption;
 
   ArticleModel({
-     this.image,
+    required this.image,
     required this.title,
     required this.descraption,
   });
+
+  factory ArticleModel.fromJson(json) {
+    return ArticleModel(
+        title: json['title'],
+        descraption: json['descraption'],
+        image: json['image']);
+  }
 }
